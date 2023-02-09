@@ -3,12 +3,12 @@ Hallo, saya Dewi Astuti (dewi-I4Zs)
 
 Ini adalah Final Project dari kelas Machine Learning Process. 
 
-Dataset yang digunakan adalah dari Jakarta Open Data 'https://data.jakarta.go.id/dataset/indeks-standar-pencemaran-udara-ispu-tahun-2021' berjudul  'Indeks Standar Pencemaran Udara (ISPU) Tahun 2021'
+Dataset yang digunakan adalah ...
 
-Business Problem: Bagaimana mengurangi kesalahan deteksi standar pencemaran udara di Jakarta
+Business Problem: ...
 
-AI Solution: Pengukuran parameter partikulat
+AI Solution: ...
 
-Business Metrics: Nilai ukur yang akurat
+Business Metrics: ...
 
-ML Metrics: Klasifikasi → F1-score atau accuracy 
+ML Metrics: ....
