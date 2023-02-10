@@ -21,21 +21,23 @@ Untuk menginstall library tersebut, bisa menjalankan perintah berikut pada termi
 <blockquote> pip install numpy </blockquote>
 <blockquote> pip install matplotlib  </blockquote>
 
-# Penggunaan
+## Penggunaan
 - Clone repository ini pada komputer anda.
 - Jalankan file app.py pada terminal atau Command Prompt. Contoh : python app.py
 - Buka browser anda dan masukkan URL http://localhost:5000/ untuk mengakses websitenya.
 - Pilih gambar yang ingin diklasifikasi dan klik tombol Upload Image.
 - Hasil klasifikasi akan ditampilkan pada halaman websitenya.
 
-- Klasifikasi Gambar Stroke
-  |- app.py (file utama untuk deployment websitenya)
-  |- model/
-      |- model.h5 (model hasil training)
-  |- static/
-      |- css/
-          |- styles.css (file css untuk tampilan websitenya)
-      |- uploads/ (folder tempat menyimpan gambar yang diupload)
-  |- templates/
-      |- index.html (file HTML untuk tampilan websitenya)
-  |- training.ipynb (file jupyter notebook untuk proses training model)
+## Klasifikasi Gambar Stroke
+    |-- app.py
+    |-- model
+    |   `-- model.h5
+    |-- static
+    |   |-- css
+    |   |   `-- styles.css
+    |   `-- uploads
+    |-- templates
+    |    `-- index.html
+    |-- training.ipynb
+    |-- LICENSE
+    `-- README.md
