@@ -1,7 +1,7 @@
 # Klasifikasi Gambar Stroke Menggunakan CNN dan Deployment Menggunakan Flask
 Hallo, saya Dewi Astuti (dewi-I4Zs)
 
-Ini adalah Final Project dari kelas Machine Learning Process. 
+Ini adalah Final Project dari kelas Machine Learning Process pada Sekolah Data Pacmann. 
 
 ## Deskripsi
 Project ini bertujuan untuk membuat sistem klasifikasi gambar stroke menggunakan Convolutional Neural Network (CNN) dan deployment sistem tersebut menggunakan Flask sebagai websitenya. Project ini memiliki tujuan untuk mempermudah proses deteksi stroke pada gambar MRI dan CT-Scan serta mempermudah akses informasi bagi para dokter dan pasien.
