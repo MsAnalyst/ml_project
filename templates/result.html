@@ -1,0 +1,46 @@
+{% extends "layout.html"%}
+{% block title %}
+Brain Stroke Detector
+{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+
+    <header class="text-white text-center">
+        <h1 class="display-4">Brain Stroke Detector</h1>
+        <p class="lead mb-5">You will see the prediction of the input image.</p>
+    </header>
+
+    <header class="text-white text-center">
+        <h1 class="display-5">Prediction</h1>
+
+        <img src="static/uploads/{{ filename }}" alt="Prediction" width="500" height="500">
+    </body>
+</html>
+
+       <p>
+        {% with vals = get_flashed_messages() %}
+            {% if vals %}
+            <ul>
+                {% for val in vals %}
+                <li> {{ val }} </li>
+
+                {% endfor %}
+            </ul>
+            {% endif %}
+        {% endwith %}
+
+    </p>
+
+    {% if filename %}
+
+    <div>
+        <!-- <img src="{{ url_for('display_image', filename=filename) }}"
+        height="500px" width="500px"> -->
+        <h2> Prediksi : <i> {{prediction}} </i> </h2>
+    </div>
+
+    {% endif %}
+    </header>
+</div>
+{% endblock %}
